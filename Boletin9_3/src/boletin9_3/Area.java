@@ -15,7 +15,7 @@ public class Area {
         System.out.println("Introducir en metro la altura");
         altura=teclado.nextInt();
         if(altura>0&&base>0){
-            int area=altura*base/2;
+            int area=altura*base;
             System.out.println("El area es = "+area+"m²");
         }
     }
